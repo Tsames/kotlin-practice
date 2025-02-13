@@ -1,0 +1,29 @@
+# Gradle-specific files and directories
+.gradle/
+.gradletasknamecache
+gradle-app.setting
+
+# Build output directories
+**/build/
+!src/**/build/
+
+# Gradle Wrapper files (do not ignore)
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDE-specific files
+.idea/
+*.iml
+.project
+.classpath
+
+# Local configuration files
+local.properties
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files and temporary files
+*.log
+*.tmp
